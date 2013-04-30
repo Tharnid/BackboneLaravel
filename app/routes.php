@@ -11,6 +11,8 @@
 |
 */
 
+Route::resource('tasks', 'TasksController');
+
 Route::get('/', function()
 {
 	return View::make('hello');
